@@ -1,0 +1,104 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+
+WorldInfo {
+  info [
+    "The model of the e-puck 2 robot"
+  ]
+  title "e-puck simulation"
+}
+Viewpoint {
+  orientation 0.5163348087529197 -0.37718227552558653 -0.7688510234755666 4.082104022055073
+  position 0.918211625410014 -1.2206575050634594 3.528801567384897
+  follow "e-puck2"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.00482531 0.290339 8.10463e-15
+  rotation 0 1 0 0
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 39756.13509124503
+  hidden position_0_1 43167.31281167418
+  hidden linearVelocity_0 2.9563771027565707e-10 -7.825652673431358e-11 -2.3974512114863243e-05
+  hidden angularVelocity_0 5.1823980260430876e-09 1.9912112224908545e-08 -2.2518780037404152e-05
+  hidden rotation_1 0 -1 0 3.861532587394337
+  hidden linearVelocity_1 -0.0008767406609556674 -0.0003746184112566305 2.702890854218716e-05
+  hidden angularVelocity_1 6.071932644838311 -1.6031868564227794 -0.030941596113959177
+  hidden rotation_2 0 0.9999999999999999 0 1.8297513504200056
+  hidden linearVelocity_2 0.000876741453840352 0.0003746182008986994 2.703004382893941e-05
+  hidden angularVelocity_2 -6.071932634393288 1.6031868960384459 -0.03094162473180625
+  translation 0.3567514500606136 -0.3140922936277846 -0.00013898378422130993
+  rotation 5.553479502482736e-10 -7.299722170648957e-10 -1 1.8268341598733653
+  name "e-puck2"
+  controller "my_controller"
+  controllerArgs [
+    ""
+  ]
+  battery [
+    0
+  ]
+  version "2"
+  camera_width 160
+  camera_height 120
+}
+Wall {
+  translation -0.25 0.16 0
+  size 0.01 0.75 0.1
+}
+Wall {
+  translation -5.19723e-15 -0.21 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(2)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation -0.120001 0.53 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(3)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.369999 0.53 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(4)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.249999 -0.08 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(5)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.119999 0.0499999 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(6)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.119999 0.29 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(7)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.369999 0.29 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(8)"
+  size 0.01 0.25 0.1
+}
+Wall {
+  translation 0.5 0.16 0
+  name "wall(1)"
+  size 0.01 0.75 0.1
+}
